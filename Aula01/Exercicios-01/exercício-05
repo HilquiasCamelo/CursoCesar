@@ -1,0 +1,28 @@
+Algoritimo  "Maior Valor"
+
+//Disciplina : C#
+//Autor Hilquias Camelo
+//Data 22/09/2022
+
+//As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se
+//forem compradas pelo menos 12. Escreva um programa que leia o número de maçãs
+//compradas, calcule e escreva o custo total da compra.
+
+Variáveis
+
+  valor, numero , novoValor: decimal 
+
+Inicio 
+
+    Escreva("Quantas maçãs você ira levar hoje ?) ")
+    leia(numero)
+
+    SE (numero < 12) ENTAO 
+       novoValor = numero * 1.30
+       Escreva("O preço total é :" + novoValor )
+    SENAO 
+       novoValor = numero * 1  
+       Escreva("O preço total é :" + novoValor )
+    FIMSE
+
+FimAlgoritimo

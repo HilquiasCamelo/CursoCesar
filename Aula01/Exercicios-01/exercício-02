@@ -1,0 +1,30 @@
+Algoritimo  "Ordenado"
+
+//Disciplina : C#
+//Autor Hilquias Camelo
+//Data 22/09/2022
+
+//Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los em ordem
+//crescente.
+
+Var 
+        Number1 , Number2 : Inteiro
+
+
+Inicio 
+       Escreva("Digite primeiro numero: ")     
+       Escreva(" ")   
+       leia(Number1)
+       Escreva("Digite segundo numero: ")     
+       Escreva(" ")   
+       leia(Number2)
+       SE(Number1 <> Number1 ) ENTAO
+            SE (&& Number1 > Number1)    ENTAO
+                Escreva( Number1 + ", " + Number2)   
+            SENAO
+              Escreva( Number2 + ", " + Number1)   
+       SENAO
+             Escreva("Os numeros: " + Number1 + " & " + Number2 + "Sao iguais !") 
+       FIMSE  
+
+FimAlgoritimo

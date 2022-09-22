@@ -1,0 +1,29 @@
+Algoritimo  "Maior Valor"
+
+//Disciplina : C#
+//Autor Hilquias Camelo
+//Data 22/09/2022
+
+
+//Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e
+//escreva a idade dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e
+//mês com 30 dias.
+
+Variáveis
+
+  a, b , c: Inteiro
+
+Inicio 
+
+    Escreva("Escreva sua idade em anos) ");
+    leia(a)
+    Escreva("Escreva sua idade em meses) ");
+    leia(b)
+    Escreva("Escreva sua idade em dias) ");
+    leia(c)
+
+  c = (c+(a*365)+(b*30));
+
+ escreva("Sua idade em dias é: ",c);
+
+FimAlgoritimo

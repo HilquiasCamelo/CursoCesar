@@ -1,0 +1,27 @@
+Algoritimo  "Maior Valor"
+
+//Disciplina : C#
+//Autor Hilquias Camelo
+//Data 22/09/2022
+
+//Três senhoras – dona Branca, dona Rosa e dona Violeta – passeavam pelo parque quando dona Rosa disse:
+//Não é curioso que estejamos vestidas de cores branca, rosa e violeta, embora
+//nenhuma de nós esteja usando um vestido de cor igual ao seu nome?
+//Uma simples coincidência – respondeu a senhora com o vestido violeta.
+//Qual a cor do vestido de cada senhora?
+
+
+--Dona Rosa disse:
+Não é curioso que estejamos vestidas de cores branca, rosa e violeta, embora
+nenhuma de nós esteja usando um vestido de cor igual ao seu nome
+
+Logo Dona Rosa não esta vestindo rosa.
+
+--Uma simples coincidência – respondeu a senhora com o vestido violeta.
+
+Logo a Dona Violeta não esta com vestido violeta também, sobrando assim somente a cor branca para dona rosa 
+se a cor branca esta com dona rosa e dona violeta nao esta com violeta logo sobra a cor rosa para ela e por fim a violeta para Dona Branca. 
+
+Dona Rosa = Branco
+Dona Violeta = Rosa
+Dona Branca  = Violeta

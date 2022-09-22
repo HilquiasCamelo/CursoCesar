@@ -1,0 +1,29 @@
+Algoritimo  "Maior Valor"
+
+//Disciplina : C#
+//Autor Hilquias Camelo
+//Data 22/09/2022
+
+//Ler dois valores (considere que não serão lidos valores iguais) e escrever o maior deles.
+
+Var 
+        Number1 , Number2 : Inteiro
+
+
+Inicio 
+       Escreva("Digite primeiro numero: )     
+       Escreva(" ")   
+       leia(Number1)
+       Escreva("Digite segundo numero: )     
+       Escreva(" ")   
+       leia(Number2)
+       SE(Number1 <> Number1 ) ENTAO
+            SE (&& Number1 > Number1)    ENTAO
+                Escreva("O maior é: " + Number1 " )   
+            SENAO
+                Escreva("O maior é: " + Number2 ") 
+       SENAO
+             Escreva("Os numeros: " + Number1 + " & " + Number2 + "Sao iguais !") 
+       FIMSE  
+
+FimAlgoritimo

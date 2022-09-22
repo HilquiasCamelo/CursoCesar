@@ -1,0 +1,36 @@
+Algoritimo  "Maior Valor"
+
+//Disciplina : C#
+//Autor Hilquias Camelo
+//Data 22/09/2022
+
+//A empresa Lucro Certo paga R$ 10,00 por hora normal trabalhada, e R$ 15,00 por hora
+//extra. Faça um programa para calcular e imprimir o salário bruto e o salário líquido de
+//um determinado funcionário. Considere que o salário líquido é igual ao salário bruto
+//descontando-se 10% de impostos.
+
+Variáveis
+
+  salarioLiquido, salarioBruto , horaExtras: decimal 
+  jornadaNormal, nomeFuncionario: caracter 
+
+Inicio 
+
+    Escreval("Olá !! ) ")
+    Escreval("Vamos calcular os salarios do funcionários) ")
+    Escreval("Digite o nome do funcionário:")
+    leia(nomeFuncionario)
+
+    Escreval("Qual foi a jornada de trabalho ? , digite quantidade de horas:")
+    leia(jornadaNormal)
+
+    Escreval("Houveram jornadas extras , se sim, digite quantidade de horas:")
+    leia(horaExtras)
+
+    salarioBruto = (jornadaNormal* 10,00) +(horaExtras * 15.00) 
+    salarioLiquido = salarioBruto - (salarioBruto * 0.1)
+
+    Escreval("O salário bruto do funcionario :" + nomeFuncionario +" será de " + salarioBruto)
+    Escreval("O salário liquido do funcionario :" + nomeFuncionario +" será de " + salarioLiquido)
+
+FimAlgoritimo

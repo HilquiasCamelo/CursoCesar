@@ -1,0 +1,51 @@
+Algoritimo  "Atravesar"
+
+//Disciplina : C#
+//Autor Hilquias Camelo
+//Data 22/09/2022
+
+//Elabore um algoritmo que mova três discos de uma Torre de Hanoi, que consiste em 3
+//hastes (a, b, c), uma das quais serve de suporte para três discos de tamanhos diferentes (1,
+//2, 3), os menores sobre os maiores. Pode-se mover um disco de cada vez para qualquer
+//haste, contanto que nunca seja colocado um disco maior sobre um menor. O objetivo é
+//transferir os três discos para outra haste.
+
+var:
+   discoA, disocB, discoC: caracter
+   haste1, haste2, haste3
+
+   discoA = maiorDisco, 
+   discoB = medioDisco,
+   discoC = MenorDisco
+
+início
+
+    haste1 = discoA, discoB , discoC
+    haste2 =("Vazia")
+    haste3 =("Vazia")
+
+    haste1 = discoA, 
+    haste2 = discoC, 
+    haste3 = discoB 
+
+    haste1 = discoA, 
+    haste2 = ("Vazia")
+    haste3 = discoB , discoC, 
+
+    haste1 = ("Vazia")
+    haste2 = discoA, 
+    haste3 = discoB, discoC,
+
+    haste1 = discoC
+    haste2 = discoA, 
+    haste3 = discoB , 
+         
+    haste1 = discoC
+    haste2 = ("Vazia"), 
+    haste3 = discoA ,discoB   
+
+    haste1 = ("Vazia")
+    haste2 = ("Vazia"), 
+    haste3 = discoA ,discoB ,  discoC
+
+FimAlgoritimo
