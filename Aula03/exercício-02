@@ -1,0 +1,12 @@
+Indique a saída dos trechos de programa em portugues estruturado, apresentados em
+seguida. Para as saídas considere os seguintes valores: A=2, B=3, C=5 e D=9. Não é
+necessário calcular os valores de X. Marque na resposta apenas a fórmula que será
+utilizada de acordo com a condição.
+
+
+se .não.(D>5) então
+X  (A+B)*D
+senão
+X  (A-B)/C
+fim_se
+escreva X

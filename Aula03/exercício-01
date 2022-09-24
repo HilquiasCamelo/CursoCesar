@@ -1,0 +1,6 @@
+Determine o resultado lógico das expressões mencionadas, assinalando se são verdadeiras
+ou falsas. Considere para as respostas os seguintes valores: X=1, A=3, B=5, C=8 e D=7.
+a. .não. (X>3) Verdadeiro(__) Falso(X)
+b. (X<1).e..não.(B>D) Verdadeiro(__) Falso(X)
+c. .não.(D<0).e.(C>5) Verdadeiro(X) Falso(__)
+d. .não.(X>3).ou.(C<7)Verdadeiro(X) Falso(__)
