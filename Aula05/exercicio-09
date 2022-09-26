@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+
+
+namespace _3H
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            int[] soma = new int[10];
+            int numero = 0;
+
+            String  ExcecaoAcimaDeCem(String excecao){
+                return excecao;
+            }
+
+            try
+            {
+
+                for(int i = 1; i <=10; i++)
+                {
+                    Console.Write("Entre com um valor inteiro:");
+                    numero = int.Parse(Console.ReadLine());
+                    if (!(soma.Length <= 10 && Console.ReadLine().All(char.IsDigit)))
+                    {
+                        throw new ArrayIndexOutOfBoundsException();
+                    }
+                    soma[i] += numero;
+                 
+
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+
+            }
+
+
+        }
+
+        
+    }
+}

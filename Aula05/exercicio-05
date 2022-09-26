@@ -1,0 +1,4 @@
+//Para que serve a instrução thow?
+
+Permite que uma exceção seja gerada 
+em contextos que não tinham suporte anteriormente

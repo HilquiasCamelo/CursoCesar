@@ -1,0 +1,10 @@
+//Explique detalhadamente o try,catch,finally.
+
+O uso do bloco try-catch-finally é importante para tratar exceções no código  impedindo assim
+desfios inesperado. Então se o codigo pode gerar erros deve ser executado dentro de um try-catch
+
+dentro do Try o que pode gerar exceção
+dentro do catch o tratamento para aquela exceção
+dentro do finally o que você deseja que sempre ocorra importante dizer que o 
+finally nao depende do lançamento das exceção , ou seja, ele sempre ira ser 
+executado.

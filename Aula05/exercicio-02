@@ -1,0 +1,5 @@
+// Se nenhuma exceção é lançada em um bloco try, onde o controle de execução prossegue quando o bloco try
+//termina a execução?
+
+
+O try/catch são pulados e o programa continua a ser executado após o último  catch.

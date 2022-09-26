@@ -16,7 +16,7 @@ internal class Program
         int numero;
         int i = 1;
 
-        Console.Write("Digite um número aleatoriamente.: ");
+        Console.Write("Digite um número .: ");
         numero = int.Parse(Console.ReadLine());
 
         while (i < numero)

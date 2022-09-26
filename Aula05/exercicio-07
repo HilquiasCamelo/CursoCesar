@@ -1,0 +1,38 @@
+//Num programa que lê um valor inteiro, faça a sua validação através do tratamento de uma exceção. Caso não
+//seja inteiro continuar pedindo a introdução do valor inteiro.
+
+
+using System;
+using System.Collections.Generic;
+
+
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int numero;
+            float a = (float)-0.0001;
+
+            while (a < 0) {
+                Console.Write("Entre com um valor inteiro:");
+                numero = int.Parse(Console.ReadLine());
+                try
+                {
+                    if (numero < 0)
+                    {
+                        {
+                            throw new Exception("Numero negativo .:");
+                        }
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            
+            }
+        }
+    }
+}

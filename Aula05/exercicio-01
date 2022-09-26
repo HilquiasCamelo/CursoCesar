@@ -1,0 +1,4 @@
+//Liste três exemplos de exceções comuns em C#.
+
+
+FormatException, NullPointerException e NumberFormatException
